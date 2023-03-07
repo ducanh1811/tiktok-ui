@@ -3,7 +3,8 @@
 
 :root {
     --primary: #fe2c55;
-
+    --black: rgb(22, 24, 35);
+    --text-href: #333;
     // Deault layout header height:
     --header-height: 60px;
     --layout-width: 1150px;
@@ -22,6 +23,7 @@ body {
     font-family: 'Tilt Warp', cursive;
     font-size: 1.6rem;
     line-height: 1.5;
+    color: var(--text-href);
     text-rendering: optimizeSpeed;
 }
 
@@ -29,4 +31,16 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+button,
+input,
+[tabindex] {
+    outline: none;
+    border: none;
+}
+
+a[href] {
+    color: var(--text-href);
+    text-decoration: none;
 }
