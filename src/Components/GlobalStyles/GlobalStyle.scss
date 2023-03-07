@@ -3,6 +3,10 @@
 
 :root {
     --primary: #fe2c55;
+
+    // Deault layout header height:
+    --header-height: 60px;
+    --layout-width: 1150px;
 }
 
 html {
@@ -22,5 +26,7 @@ body {
 }
 
 * {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
